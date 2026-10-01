@@ -16,6 +16,11 @@ public class Calculator {
 			logger.info("Info log message");
 			logger.error("Error log message");
 		 */
+		
+		private int number1;
+		private int number2;
+		private int result;
+		
 		public static void main(String... args) {
 		        String thing = args.length > 0 ? args[0] : "world";
 		        LOGGER.error("Hello, {}", thing);
@@ -23,9 +28,12 @@ public class Calculator {
 		    }
 
 		    private static Object doSomeCalculation() {
+		    	
 		        return null;
 		        // do some complicated calculation
 		    }
+		    
+		    
 		
 
 	}
